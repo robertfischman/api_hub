@@ -8369,7 +8369,6 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        - YouTube API
       summary: Get channel details
       description: "This Channel Details API is your gateway to access comprehensive information about a specific YouTube channel.\n\nBy leveraging a static JSON file, you can effortlessly retrieve and explore vital details, statistics, and metadata associated with the channel to build stunning YouTube like channel page UI.\n\n**Disclaimer:**\n\nData provided by the API is static and not real-time.\n\nThis simplifies the process of developing a\_**YouTube clone**, allowing developers to solely focus on UI design and creativity, without worrying about complex API key configuration."
       operationId: getChannelDetails
@@ -8809,7 +8808,6 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        - YouTube API
       summary: Get youtube videos
       description: >-
         This API endpoint enables you to retrieve all YouTube videos from a JSON
@@ -11219,7 +11217,6 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        - YouTube API
       summary: Get video by id
       description: >-
         This API endpoint allows you to retrieve a YouTube video's complete
@@ -11936,7 +11933,6 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        - YouTube API
       summary: Get video comments
       description: >-
         The API endpoint allows you to retrieve YouTube video comments based on
@@ -12391,7 +12387,6 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        - YouTube API
       summary: Get related videos
       description: >-
         The API endpoint returns a list of recommended YouTube videos based on
@@ -13770,7 +13765,6 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        - YouTube API
       summary: Get playlists
       description: "This API endpoint allows users to retrieve playlists associated with the channel.\n\nBy accessing this endpoint, users can obtain a collection of playlists that belong to the channel.\n\nThis functionality is particularly useful for implementing a \"Playlists\" tab in the channel page UI design, where users can view the playlists conveniently.\n\n**Disclaimer:**\n\nData provided by the API is static and not real-time.\n\nThis simplifies the process of developing a\_**YouTube clone**, allowing developers to solely focus on UI design and creativity, without worrying about complex API key configuration."
       operationId: getPlaylists
@@ -14467,7 +14461,6 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        - YouTube API
       summary: Get playlist details and items
       description: >-
         This API endpoint provides the details of a playlist, including playlist
