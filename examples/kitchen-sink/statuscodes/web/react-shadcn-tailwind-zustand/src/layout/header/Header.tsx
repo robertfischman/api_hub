@@ -11,7 +11,13 @@ export default function Header() {
   return (
     <div className="flex justify-center w-full border-b-4 border-white">
       <div className="flex items-center justify-between w-full max-w-screen-lg p-4">
-        <Link className="font-bold no-underline cursor-pointer" to="/">
+        <Link
+          className={`font-bold no-underline cursor-pointer 
+          ${pathname === "/" ? "text-blue-500" : "text-white"}
+          hover:text-blue-500
+        `}
+          to="/"
+        >
           HTTP Status Insight
         </Link>
         <NavigationMenu>
